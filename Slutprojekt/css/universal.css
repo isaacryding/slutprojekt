@@ -1,47 +1,45 @@
-h1{
-    font-size:42px;
-    font-weight: 10;
+header{
+    font-size:60px;
+    margin:15px 42px auto 42px;
+    font-style: italic;
+    font-weight: 800;
 }
 
+
 body{
-    background-color:lightblue; 
-    margin-left:auto;
+    background-image:url(../img/bakgrundmini.webp);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  margin:auto 42px auto 42px;
 }
 
 .text {
     font-weight: 10;
-    max-width: 950px;
+    max-width:1000px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border:20px solid rgb(255, 255, 255, 0.7);
+    margin-top: 1%;
+    
+    
 }
 
-.sidenav {
-    height: 100%; 
-    width: 110px; 
-    position: fixed; 
-    z-index: 1; 
-    top: 0; 
-    left: 40;
-    background-color:#5ed8ff;
-    overflow-x: hidden; 
-    padding-top: 20px;
-  }
+.flexbox-container {
+   display:flex;
+   justify-content:space-evenly;
+   column-gap: 40px;
+   background-color: lightgrey;
+   max-width: 950px;
+   margin-top: 15px;
+   border:outset darkgrey;
+}
 
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    display: block;
-  }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-    font-weight:500;
-  }
-  
-  .main {
-    margin-left: 160px; 
-    padding: 0px 10px;
-  }
-
-
+.flexbox-item {
+  width:auto;
+  height:fit-content;
+  font-size:30px;
+  color:darkslategray;
+}
 
