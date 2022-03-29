@@ -3,13 +3,20 @@ header{
     margin:15px 42px auto 42px;
     font-style: italic;
     font-weight: 800;
+    color:darkslategrey;
 }
 
+html {
+  height: 100%;
+  width:100%;
+}
 
 body{
-    background-image:url(../img/bakgrundmini.webp);
-    background-size: cover;
     font-family: 'Roboto', sans-serif;
+    background-size:cover;
+    height:fit-content;
+    width:100%;
+    background-repeat: no-repeat;
 }
 
 .main {
@@ -19,11 +26,9 @@ body{
 .text {
     font-weight: 10;
     max-width:1000px;
-    background-color: rgb(255, 255, 255, 0.7);
-    border:20px solid rgb(255, 255, 255, 0.7);
-    margin-top: 1%;
-    
-    
+    background-color: rgb(255, 255, 255, 0.9);
+    border:20px solid rgb(255, 255, 255, 0.3);
+    margin-top: 1%; 
 }
 
 .flexbox-container {
@@ -39,7 +44,22 @@ body{
 .flexbox-item {
   width:auto;
   height:fit-content;
-  font-size:30px;
-  color:darkslategray;
+  font-size:20px;
+  color: darkslategray;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+
+.flexbox-item :hover {
+color: slategray;
+}
+
+a {
+  color:inherit;
+}
+
+a:link {
+  text-decoration:none;
 }
 
