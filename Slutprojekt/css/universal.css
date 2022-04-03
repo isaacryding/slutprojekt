@@ -15,7 +15,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-size:cover;
     height:fit-content;
-    width:100%;
+    width:max-content;
     background-repeat: no-repeat;
 }
 
@@ -31,17 +31,17 @@ body{
     margin-top: 1%; 
 }
 
-.flexbox-container {
+.meny {
    display:flex;
    justify-content:space-evenly;
    column-gap: 40px;
    background-color: lightgrey;
-   max-width: 950px;
+   max-width: 70%;
    margin-top: 15px;
    border:outset darkgrey;
 }
 
-.flexbox-item {
+.menyval {
   width:auto;
   height:fit-content;
   font-size:20px;
@@ -49,10 +49,6 @@ body{
   padding-top: 5px;
   padding-bottom: 5px;
   
-}
-
-.flexbox-item :hover {
-color: slategray;
 }
 
 a {
@@ -63,31 +59,10 @@ abbr[title] {
   text-decoration: none;
 }
 
-.dropdown1 {
+ul {
+  list-style-type: none;
+}
+
+.årtal {
   display: none;
-  position:absolute;
-  background-color: white;
-  min-width:160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown1 a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown1 a:hover {background-color: #ddd;}
-.dropdown1 .flexbox-item-1 {display:block}
-
-<!--
-
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;} --!> 
-
-.flexbox-item-1 {
-  position: relative;
-  display: inline-block;
 }
