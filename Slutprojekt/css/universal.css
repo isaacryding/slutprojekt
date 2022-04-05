@@ -6,17 +6,11 @@ header{
     color:darkslategrey;
 }
 
-html {
-  height: 100%;
-  width:100%;
-}
-
 body{
     font-family: 'Roboto', sans-serif;
-    background-size:cover;
+    background-size:stretch;
     height:fit-content;
     width:max-content;
-    background-repeat: no-repeat;
 }
 
 .main {
@@ -31,7 +25,7 @@ body{
     margin-top: 1%; 
 }
 
-.meny {
+.menyval {
    display:flex;
    justify-content:space-evenly;
    column-gap: 40px;
@@ -39,16 +33,18 @@ body{
    max-width: 70%;
    margin-top: 15px;
    border:outset darkgrey;
+
 }
 
-.menyval {
+.meny {
   width:auto;
   height:fit-content;
   font-size:20px;
   color: darkslategray;
   padding-top: 5px;
   padding-bottom: 5px;
-  
+  display:flex;
+  justify-content: space-evenly;
 }
 
 a {
